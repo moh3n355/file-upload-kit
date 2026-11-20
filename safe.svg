@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200">
+  <rect width="400" height="200" fill="#eef"/>
+  <text x="200" y="100" font-size="20" text-anchor="middle" fill="#003">
+    SVG Alert Test
+  </text>
+  <script type="text/javascript">
+    alert("XSS via SVG - Alert Triggered");
+  </script>
+</svg>
